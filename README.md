@@ -181,6 +181,8 @@ Ce que le designer doit annoter pour un résultat optimal
 - Les **micro-interactions clés** (feedback bouton, validation formulaire)
 - L' **ordre de priorité** si le mobile doit réordonner les blocs
 
-Avec ça, **je produis quelque chose qu'un dev aurait mis 2-3 jours à coder — en quelques minutes.** Le designer conserve tout son rôle stratégique et créatif ; Claude Design absorbe la partie mécanique et répétitive de la production.
+Avec ça, **je produis quelque chose qu'un dev aurait mis 2-3 jours à coder — en quelques minutes.** 
+
+Le designer conserve tout son rôle stratégique et créatif ; Claude Design absorbe la partie mécanique et répétitive de la production.
 
 C'est vraiment là que le duo devient imbattable.
