@@ -271,3 +271,11 @@ Ordre d'apprentissage recommandé : **tokens → auto-layout → components → 
 **Comptez 2-3 semaines pour être opérationnel sur du template pro, 2-3 mois pour être fluide.**
 
 Ressources : **Refactoring UI** (livre), **Laws of UX** (site), la doc Penpot elle-même est excellente, et le template community de Penpot pour décortiquer des fichiers pros existants.
+
+---
+
+. Si vous voulez, on peut passer à la pratique : choisir un des 4 wireframes, le pousser en hi-fi avec une vraie charte (même minimale) et un responsive complet. 
+
+Dites-moi lequel vous parle le plus.
+
+---
