@@ -216,3 +216,58 @@ Mon conseil pratique :
 Le gros avantage de Penpot sur Figma pour votre usage freelance IT : vous restez propriétaire de vos fichiers, pas de lock-in, et les formats SVG/JSON sont parsables par n'importe quel outil.
 
 ---
+
+## Voici les fondamentaux à maîtriser, organisés du plus critique au plus avancé.
+
+## 1. Fondamentaux de design visuel
+
+- **Grille & colonnes** : 12 colonnes desktop, 4 mobile, gouttières constantes. Penpot a des layout grids natifs.
+- **Échelle modulaire** : espacements en multiples de 4 ou 8 (4, 8, 16, 24, 32, 48, 64). Jamais de valeurs arbitraires.
+- **Hiérarchie typographique** : 4-6 niveaux max (display, h1, h2, body, small, caption). Ratio constant (1.25 ou 1.333).
+- **Contraste & couleur** : WCAG AA minimum (4.5:1 pour le texte). Penpot intègre un vérificateur.
+- **Alignement & proximité (Gestalt)** : ce qui va ensemble doit être proche et aligné.
+
+## 2. Lois d'UX à connaître
+
+- **Fitts** : plus une cible est grande/proche, plus elle est cliquable vite → CTA ≥ 44px sur mobile.
+- **Hick** : plus d'options = plus de temps de décision → limitez les choix.
+- **Miller** : 7±2 items en mémoire courte → groupez.
+- **Jakob** : les utilisateurs préfèrent ce qu'ils connaissent → respectez les conventions.
+- **Doherty** : feedback < 400ms sinon perçu comme lent.
+
+## 3. Techniques Penpot spécifiques
+
+- **Components & variants** : un bouton = un composant avec variants (primary/secondary, S/M/L, default/hover/disabled). Ne jamais dupliquer.
+- **Design tokens** : centralisez couleurs, espacements, typos comme variables. Un changement, tout se met à jour.
+- **Auto-layout (flex layout Penpot)** : apprenez direction, gap, padding, align. C'est 80% du travail moderne.
+- **Constraints** : comment les éléments se comportent quand le parent redimensionne (fixe, étirer, centrer).
+- **Boards (équivalent des frames)** : un board par écran, jamais des éléments libres.
+
+## 4. Méthode de travail
+
+- **Du low-fi au hi-fi** : wireframe noir & blanc d'abord, couleurs et détails ensuite. Ne jamais commencer par le pixel parfait.
+- **Mobile-first** : dessinez le mobile en premier, puis étendez au desktop. L'inverse mène à des désastres responsive.
+- **États complets** : pour chaque écran, documentez empty / loading / error / success / hover / focus / disabled.
+- **User flows avant écrans** : tracez le parcours (Excalidraw ou Penpot lui-même) avant les maquettes.
+- **Design system avant templates** : définissez tokens + composants de base avant toute page.
+
+## 5. Livrables professionnels
+
+- **Annotations** : chaque écran annoté (interactions, logique, edge cases). Penpot a des commentaires.
+- **Specs dev** : espacements, couleurs, tailles mesurables (Penpot les expose dans le panneau inspection).
+- **Prototype cliquable** : reliez les boards pour simuler le flow.
+- **Style guide** : une page qui rassemble tokens, composants, règles d'usage.
+
+## 6. Concepts plus avancés à apprendre ensuite
+
+- **Information architecture (card sorting, tree testing)**
+- **Jobs-to-be-done** pour justifier chaque écran
+- **Progressive disclosure** pour gérer la complexité
+- **Micro-copy** : les mots font 80% de l'UX
+- **Accessibilité au clavier** et ordre de tabulation (ça se dessine aussi)
+
+Ordre d'apprentissage recommandé : **tokens → auto-layout → components → variants → prototypes → design system complet.** 
+
+**Comptez 2-3 semaines pour être opérationnel sur du template pro, 2-3 mois pour être fluide.**
+
+Ressources : **Refactoring UI** (livre), **Laws of UX** (site), la doc Penpot elle-même est excellente, et le template community de Penpot pour décortiquer des fichiers pros existants.
