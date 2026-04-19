@@ -186,3 +186,33 @@ Avec ça, **je produis quelque chose qu'un dev aurait mis 2-3 jours à coder —
 Le designer conserve tout son rôle stratégique et créatif ; Claude Design absorbe la partie mécanique et répétitive de la production.
 
 C'est vraiment là que le duo devient imbattable.
+
+---
+
+## Alternatives open-source à Figma
+
+- **Penpot** — le plus sérieux. Entièrement open-source (AGPL), auto-hébergeable ou hébergé gratuitement sur penpot.app. Collaboration temps réel, composants, design tokens, export SVG/PDF. Fichiers stockés en SVG + JSON standard, donc vraiment ouverts. Dev-friendly : exporte en code CSS propre. C'est le concurrent direct le plus mature.
+
+- **Excalidraw** — pour le wireframe et les croquis main levée. Open-source (MIT). Parfait pour l'idéation et les schémas ; moins pour la maquette hi-fi.
+
+- **Inkscape** — éditeur vectoriel SVG complet, GPL. Pas pensé pour l'UI, mais puissant pour l'illustration et les assets.
+
+- **Akira** — ambition d'être « Figma pour Linux », open-source (GPL). Développement ralenti, pas encore mature.
+
+- **Plasmic** — pas totalement open-source mais le builder est libre (MIT partiel) ; orienté design-to-code React/Vue/Next avec génération réelle.
+
+Des outils plus « code-first » qui remplacent Figma en amont du design :
+
+- **Framer** (propriétaire mais très proche code)
+- **Webflow** (propriétaire, no-code web)
+- **Tldraw** (MIT, canvas infini pour diagrammes/UI flows)
+
+Mon conseil pratique :
+
+- Pour remplacer Figma 1:1 → Penpot, sans hésiter
+- Pour wireframes rapides → Excalidraw ou Tldraw
+- Pour passer au code fonctionnel → commencez chez Penpot puis importez chez moi (ou travaillez directement avec moi à partir d'un brief + screenshots de références)
+
+Le gros avantage de Penpot sur Figma pour votre usage freelance IT : vous restez propriétaire de vos fichiers, pas de lock-in, et les formats SVG/JSON sont parsables par n'importe quel outil.
+
+---
