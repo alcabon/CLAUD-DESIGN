@@ -64,20 +64,20 @@ Ce que je peux vous dire de manière honnête :
 
 ## Ce qui marche très bien
 
-- Mockups de sites/landing pages, dashboards, apps SaaS classiques
-- Wireframes et exploration rapide de directions (comme vos 4 options)
-- Prototypes interactifs hi-fi (onboarding, flows, composants)
-- Slides / decks, documents imprimables
-- Animations et micro-interactions
-- Reprise d'un design system existant si le codebase est importé
-* Responsive desktop ↔ mobile avec déduction automatique
+- **Mockups** de sites/landing pages, dashboards, apps SaaS classiques
+- **Wireframes** et exploration rapide de directions (comme vos 4 options)
+- **Prototypes interactifs hi-fi** (onboarding, flows, composants)
+- **Slides** / decks, documents imprimables
+- **Animations** et micro-interactions
+- **Reprise d'un design system existant** si le codebase est importé
+- **Responsive desktop ↔ mobile** avec déduction automatique
 
 ## Ce qui demande plus d'itération
 
-- Designs très typés « 3D / WebGL / shader »
-- Reproductions pixel-perfect sans source (juste un screenshot flou)
-- Interactions temps réel complexes (collaboration multi-user, streams vidéo)
-- Systèmes avec des centaines de composants où la cohérence totale est critique — il faut alors importer le codebase, pas repartir de zéro
+- **Designs très typés** « 3D / WebGL / shader »
+- **Reproductions pixel-perfect** sans source (juste un screenshot flou)
+- **Interactions temps réel complexes** (collaboration multi-user, streams vidéo)
+- **Systèmes avec des centaines de composants** où la cohérence totale est critique — il faut alors importer le codebase, pas repartir de zéro
 
 ## Mes limites honnêtes
 
@@ -89,3 +89,45 @@ Je peux halluciner sur des détails de marques que je connais mal — fournir le
 Le plus fiable pour juger : testez sur un cas concret à vous. 
 
 Donnez-moi un brief avec vos contraintes, je livre, vous jugez la fidélité et la fonctionnalité réelle. C'est plus parlant que des chiffres.
+
+---
+
+c'est un des exercices où je suis le plus utile. 
+
+## Voici comment je procède, comparé à un UX designer humain :
+
+## Ce que je fais aussi bien qu'un UX designer senior
+
+- **Critique structurée point par point** — hiérarchie visuelle, parcours utilisateur, charge cognitive, friction, accessibilité, responsive. Je justifie chaque remarque avec un principe (loi de Fitts, loi de Hick, Nielsen heuristics, WCAG, Gestalt…) plutôt qu'avec « je le sens comme ça ».
+
+- **Respect strict des contraintes de marque** — si vous me donnez la charte (couleurs, polices, logos, tone of voice), je ne la touche pas. Ma critique porte alors sur ce qui n'est pas contraint : layout, hiérarchie, copy, interaction, parcours, densité, ordre d'information.
+
+- **Itération rapide** — je produis 3-5 variations fonctionnelles côte-à-côte en une passe, ce qu'un humain fait en plusieurs jours.
+
+- **Critique et implémentation** — je ne dis pas seulement « ceci est faible » ; je livre la version améliorée dans le même mouvement, pour comparaison directe A/B.
+
+## Cadre de critique que j'applique typiquement
+
+- **Clarté** : le message principal est-il lisible en < 3 secondes ?
+- **Hiérarchie** : l'œil suit-il l'ordre d'importance métier ?
+- **CTA** : un seul CTA primaire visible par écran ? Son libellé est-il actionnable ?
+- **Friction** : combien de clics/champs avant la valeur ? Peut-on en retirer ?
+- **Scan vs lecture** : densité adaptée au contexte (dashboard = scan, article = lecture) ?
+- **États** : vide, chargement, erreur, succès, hover, focus, disabled — tous couverts ?
+- **Mobile-first** : la version mobile dégrade-t-elle gracieusement ou est-ce du desktop rétréci ?
+- **Accessibilité** : contrastes AA/AAA, targets 44px, ordre DOM logique, aria
+- **Cohérence** : mêmes patterns pour mêmes actions à travers le produit
+- **Tone & copy** : ton aligné avec la marque, pas de jargon inutile, verbe d'action
+
+## Où un humain reste meilleur
+
+- Recherche utilisateur réelle (entretiens, tests, observation terrain) — je ne peux qu'analyser ce que vous me rapportez
+- Intuition culturelle fine sur un marché/métier spécifique
+- Négociation politique avec les parties prenantes
+- Jugement sur la stratégie produit au-delà de l'écran
+
+Suggestion concrète : envoyez-moi une maquette ou un screenshot d'une de vos interfaces actuelles, avec la charte + le contexte (qui l'utilise, pour quoi faire, quel problème). Je vous rends :
+
+- Une critique écrite numérotée avec justifications
+- Une version améliorée fonctionnelle (HTML/CSS) respectant votre charte
+- Les points restés subjectifs, clairement signalés comme tels
