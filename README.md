@@ -57,3 +57,35 @@ Sortie multi-format — du même HTML je sors un PDF, un PPTX éditable, une ver
 Concrètement pour votre cas : si vous me donnez une maquette Figma desktop + la mention « responsive mobile aussi », je livre un fichier HTML unique qui s'adapte de 320px à 2560px, avec vraies interactions, prêt à être déployé. Figma vous aurait donné une deuxième frame à dessiner à la main.
 
 La limite honnête : pour un design system de 200 composants avec variants/tokens complexes déjà en place dans Figma, l'import reste partiel — dans ce cas, importer le codebase de votre bibliothèque de composants donne un meilleur résultat que le Figma lui-même.
+
+---
+
+Ce que je peux vous dire de manière honnête :
+
+## Ce qui marche très bien
+
+- Mockups de sites/landing pages, dashboards, apps SaaS classiques
+- Wireframes et exploration rapide de directions (comme vos 4 options)
+- Prototypes interactifs hi-fi (onboarding, flows, composants)
+- Slides / decks, documents imprimables
+- Animations et micro-interactions
+- Reprise d'un design system existant si le codebase est importé
+* Responsive desktop ↔ mobile avec déduction automatique
+
+## Ce qui demande plus d'itération
+
+- Designs très typés « 3D / WebGL / shader »
+- Reproductions pixel-perfect sans source (juste un screenshot flou)
+- Interactions temps réel complexes (collaboration multi-user, streams vidéo)
+- Systèmes avec des centaines de composants où la cohérence totale est critique — il faut alors importer le codebase, pas repartir de zéro
+
+## Mes limites honnêtes
+
+Je ne dessine pas d'illustrations SVG complexes à la main — j'utilise des placeholders et je demande les vrais assets
+Pour une vraie mise en prod, mon output est un excellent point de départ mais doit passer par une revue dev/design
+
+Je peux halluciner sur des détails de marques que je connais mal — fournir les sources évite ça
+
+Le plus fiable pour juger : testez sur un cas concret à vous. 
+
+Donnez-moi un brief avec vos contraintes, je livre, vous jugez la fidélité et la fonctionnalité réelle. C'est plus parlant que des chiffres.
