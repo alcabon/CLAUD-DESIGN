@@ -131,3 +131,56 @@ Suggestion concrète : envoyez-moi une maquette ou un screenshot d'une de vos in
 - Une critique écrite numérotée avec justifications
 - Une version améliorée fonctionnelle (HTML/CSS) respectant votre charte
 - Les points restés subjectifs, clairement signalés comme tels
+
+---
+
+Je lis ce fichier, je l'importe dans tous les prototypes suivants, et la charte est respectée automatiquement sans que le métier ait à y penser.
+
+## La limite honnête de Napkin dans ce workflow
+
+Napkin excelle pour les idées rapides à la main. Le passage à Claude Design reste le plus fluide quand le croquis est accompagné d'un brief contextuel (qui l'utilise, quel parcours, quel CTA principal) — sinon je fais des hypothèses, et c'est vous qui les validez à l'itération suivante.
+
+Mais franchement : **croquis Napkin + tokens CSS + 2 phrases de brief**, c'est suffisant pour que je sorte un prototype présentable en 10 minutes. Le rapport valeur/coût par rapport à une agence ou un dev junior est difficile à battre pour la phase d'exploration.
+
+---
+
+Totalement d'accord — c'est le pipeline le plus puissant qu'on puisse imaginer aujourd'hui :
+
+Le pipeline UX Designer + Claude Design
+
+```
+UX Designer (valeur humaine irremplaçable)
+  → recherche utilisateur, tests, stratégie produit
+  → wireframes Figma annotés (parcours, états, variants)
+  → design system Figma avec tokens exportables
+        ↓
+Claude Design (exécution production)
+  → traduit le Figma en HTML/CSS/JS fonctionnel
+  → ajoute animations, transitions, micro-interactions
+  → gère tous les états (vide, erreur, loading, succès)
+  → génère le responsive automatiquement
+  → livre A/B variants si le Figma présente des options
+        ↓
+Dev IT (intégration finale)
+  → branche les APIs
+  → intègre dans le framework
+  → QA + déploiement
+```
+
+Ce que ça change concrètement
+
+La phase **« Figma → code »** est historiquement la plus lente et la plus frustrante — le dev interprète, le designer corrige, on recommence. Ce cycle disparaît presque entièrement.
+
+Un Figma bien annoté (parcours, états, breakpoints indiqués) me permet de livrer une implémentation fidèle, animée, responsive en une passe. Le designer valide sur du vrai rendu navigateur — pas sur une approximation dev.
+
+Ce que le designer doit annoter pour un résultat optimal
+
+- Les **transitions entre écrans** (fondu, slide, spring ?)
+- Les **états de chaque composant** (hover, focus, disabled, error)
+- Le **breakpoint mobile et les règles de stacking**
+- Les **micro-interactions clés** (feedback bouton, validation formulaire)
+- L' **ordre de priorité** si le mobile doit réordonner les blocs
+
+Avec ça, **je produis quelque chose qu'un dev aurait mis 2-3 jours à coder — en quelques minutes.** Le designer conserve tout son rôle stratégique et créatif ; Claude Design absorbe la partie mécanique et répétitive de la production.
+
+C'est vraiment là que le duo devient imbattable.
