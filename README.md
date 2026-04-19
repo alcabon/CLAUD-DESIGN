@@ -146,7 +146,7 @@ Mais franchement : **croquis Napkin + tokens CSS + 2 phrases de brief**, c'est s
 
 Totalement d'accord — c'est le pipeline le plus puissant qu'on puisse imaginer aujourd'hui :
 
-Le pipeline UX Designer + Claude Design
+## Le pipeline UX Designer + Claude Design
 
 ```
 UX Designer (valeur humaine irremplaçable)
